@@ -1,1 +1,97 @@
-/* your code here */
+ body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #a5d6a7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.product {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  overflow: hidden;
+  max-width: 900px;
+  width: 90%;
+}
+
+.product__photo {
+  flex: 1;
+  background-color: #c8e6c9;
+  padding: 2rem;
+}
+
+.photo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-main img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.photo-album ul {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.photo-album li img {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.product__details {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.price h2 {
+  color: #2e7d32;
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.variant ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.variant li img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.description ul {
+  padding-left: 1rem;
+}
+
+.add-to-cart {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
